@@ -58,24 +58,24 @@
 
 // Text
 .description_c2668b,
-.markup_d6076c,
+.markup_f8f345,
 .container_e62b38,
 .header_c2668b,
-.username_ec86aa,
-.repliedTextPlaceholder_ec86aa,
-.repliedTextPreview_ec86aa.clickable_ec86aa:hover,
-.repliedMessage_ec86aa,
+.username_f9f2ca,
+.repliedTextPlaceholder_f9f2ca,
+.repliedTextPreview_f9f2ca.clickable_f9f2ca:hover,
+.repliedMessage_f9f2ca,
 .subtitle_ec583a,
-.markup_d6076c code,
+.markup_f8f345 code,
 .codeBlockText_cdb578,
 .codeLine_cdb578,
 .operations_ed9386,
-.markup_d6076c h1,
-.markup_d6076c h2,
-.markup_d6076c h3,
-.markup_d6076c h4,
-.markup_d6076c h5,
-.markup_d6076c h6 {
+.markup_f8f345 h1,
+.markup_f8f345 h2,
+.markup_f8f345 h3,
+.markup_f8f345 h4,
+.markup_f8f345 h5,
+.markup_f8f345 h6 {
     color: $text;
 }
 
@@ -86,12 +86,12 @@
 }
 
 // Blockquote
-.blockquoteDivider_d6076c {
+.blockquoteDivider_f8f345 {
     background: $grey;
 }
 
 // Bullet point
-.markup_d6076c li {
+.markup_f8f345 li {
     list-style-type: square;
 }
 
@@ -283,7 +283,7 @@
 }
 
 // Spoiler text
-.messageContent_ec86aa {
+.messageContent_f9f2ca {
     .spoilerMarkdownContent_a3d0f7.hidden_a3d0f7 {
         @include boxes.box;
         background: $darkgrey;
@@ -296,7 +296,7 @@
 }
 
 // Code blocks
-.markup_d6076c code {
+.markup_f8f345 code {
     @include boxes.box;
     background: $bg;
 }
