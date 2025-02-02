@@ -3,34 +3,34 @@
 
 // Header bars
 :is(
-        .container_c2739c .container_e44302,
-        .container_fca846 .container_e44302,
-        .pageWrapper_a3a4ce .scroller_a3a4ce,
-        .scroller_a39aa3 .viewWrapper_a39aa3,
-        .applicationStore_cecc86 .homeWrapper_d175a8,
-        .container_d1c246:not(.floating_d1c246) .container_e44302:not(.wrapper_d880dc .container_e44302),
-        .chat_a7d72e .container_e44302:not(.wrapper_d880dc .container_e44302)
-    ) {
+    .container__133bf .container__9293f,
+    .container__808a1 .container__9293f,
+    .pageWrapper_a3a4ce .scroller_a3a4ce,
+    .scroller_a39aa3 .viewWrapper_a39aa3,
+    .applicationStore_f07d62 .homeWrapper__0920e,
+    .container__01ae2:not(.floating__01ae2) .container__9293f:not(.wrapper_cb9592 .container__9293f),
+    .chat_f75fb0 .container__9293f:not(.wrapper_cb9592 .container__9293f)
+) {
     margin-top: $title-height;
     z-index: 0;
 
-    .divider_e44302 {
+    .divider__9293f {
         display: none;
     }
 }
 
 // End of description shadow
-.appMount_ea7e65 :is(.innerHeader_f1fd9c, .headerBarInner_e85cee)::after {
+.appMount__51fd7 :is(.innerHeader__0b563, .headerBarInner__7449f)::after {
     background: linear-gradient(180deg, transparent, $grey);
 }
 
 // Tools
-.toolbar_e44302 {
-    .search_ff5f90 {
+.toolbar__9293f {
+    .search__49676 {
         @include boxes.inset;
         margin: 0;
 
-        .searchBar_a46bef {
+        .searchBar__97492 {
             height: 30px;
             align-items: center;
             background: $bg;
@@ -41,18 +41,18 @@
             }
 
             // Search button
-            .icon_a46bef {
+            .icon__97492 {
                 @include boxes.clickable;
                 background: $grey;
 
-                .icon_effbe2 {
+                .icon_fea832 {
                     color: $black;
                 }
             }
 
             // Filters
-            .searchFilter_b0fa94,
-            .searchAnswer_b0fa94 {
+            .searchFilter_bd8186,
+            .searchAnswer_bd8186 {
                 @include boxes.box;
                 background: $grey;
                 color: $black;
@@ -61,10 +61,10 @@
     }
 
     // Buttons
-    .videoControls_dd069c
+    .videoControls_bfe55a
         &
-        .iconWrapper_e44302.clickable_e44302:is(.anchor_af404b .iconWrapper_e44302:only-of-type, :has([d^="M14 8.00598"])),
-    .iconWrapper_e44302.clickable_e44302:not(.anchor_af404b .iconWrapper_e44302:only-of-type, :has([d^="M14 8.00598"])) {
+        .iconWrapper__9293f.clickable__9293f:is(.anchor_edefb8 .iconWrapper__9293f:only-of-type, :has([d^="M14 8.00598"])),
+    .iconWrapper__9293f.clickable__9293f:not(.anchor_edefb8 .iconWrapper__9293f:only-of-type, :has([d^="M14 8.00598"])) {
         @include boxes.clickable;
         margin: 0;
         height: 32px;
@@ -80,6 +80,6 @@
 }
 
 // Under header bar
-.content_a7d72e::before {
+.content_f75fb0::before {
     display: none;
 }

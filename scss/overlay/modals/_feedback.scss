@@ -1,18 +1,18 @@
 @use "../../top/vars" as *;
 @use "../../top/boxes" as boxes;
 
-.ratingsSelector_b58b14 {
+.ratingsSelector__6c12c {
     width: auto;
 
-    .horizontal_bba380 > & {
+    .horizontal__7c0ba > & {
         margin-left: 0;
     }
 
-    .emoji_b58b14 {
+    .emoji__6c12c {
         @include boxes.clickable;
     }
 }
 
-.horizontal_bba380:has(.ratingsSelector_b58b14) + .content_f9a4c9 {
+.horizontal__7c0ba:has(.ratingsSelector__6c12c) + .content__49fc1 {
     display: none;
 }

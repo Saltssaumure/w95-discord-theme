@@ -8,17 +8,17 @@
     border-bottom: 0;
 }
 
-.card_a298b8 {
+.card__73069 {
     @include boxes.inset;
     padding: 16px;
 
-    .noItemsIcon_a206c7,
-    .noItemsIcon_e70817 {
+    .noItemsIcon_e335a7,
+    .noItemsIcon__70151 {
         background: transparent;
     }
 
-    .cardText_a206c7,
-    .cardText_e70817 {
+    .cardText_e335a7,
+    .cardText__70151 {
         color: $black;
     }
 }

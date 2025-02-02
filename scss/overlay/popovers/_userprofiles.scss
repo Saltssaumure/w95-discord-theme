@@ -15,7 +15,7 @@
             --header-secondary: #{$grey};
             --text-normal: #{$lightgrey};
 
-            .color_f1cdcc.banner_f1cdcc {
+            .color_f9d37d.banner_fb7f94 {
                 color: #{$white};
             }
         }
@@ -31,18 +31,18 @@
         .profileBadges_f89da9 {
             gap: 0;
             padding: 0;
-            .anchor_af404b {
+            .anchor_edefb8 {
                 @include boxes.clickable;
                 padding: 2px;
             }
         }
 
         // Profile badges (new profile)
-        .container_e5a42d {
+        .container__8061a {
             @include boxes.box;
         }
 
-        .color_f1cdcc.banner_f1cdcc {
+        .color_f9d37d.banner_fb7f94 {
             background: none;
         }
 
@@ -62,12 +62,12 @@
         }
 
         code,
-        .blockquoteDivider_f8f345 {
+        .blockquoteDivider__75297 {
             background: $darkgrey;
         }
 
         // Roles
-        :is(.role_f9575e, .showMoreButton_c83b44) {
+        :is(.role_dfa8b6, .showMoreButton_c83b44) {
             @include boxes.box;
             margin-right: 0;
         }
@@ -83,7 +83,7 @@
         }
 
         // Activity buttons
-        .vertical_bf8eca > :not(:first-child) {
+        .vertical__65bb6 > :not(:first-child) {
             margin-top: 0;
         }
     }

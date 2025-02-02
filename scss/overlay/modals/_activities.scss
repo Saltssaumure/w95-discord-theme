@@ -2,17 +2,17 @@
 @use "../../top/boxes" as boxes;
 
 // Activities
-.scrollSection_f09e45 {
+.scrollSection__35455 {
     padding: 0 8px;
 }
 
-.shelf_f09e45 {
+.shelf__35455 {
     gap: 8px;
 
-    .activityItem_d46b95 {
+    .activityItem__18da2 {
         @include boxes.clickable;
 
-        .activityTag_d46b95 {
+        .activityTag__18da2 {
             @include boxes.box;
         }
     }

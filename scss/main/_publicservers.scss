@@ -4,7 +4,7 @@
 // Public servers and student hubs
 
 // Sidebar
-.sidebar_a4d4d9 > .thin_eed6a8 {
+.sidebar_c48ade > .thin__99f8c {
     margin-left: 28px;
 
     .discoverHeader_b992d4 {
@@ -31,7 +31,7 @@
 }
 
 // Main page
-.appMount_ea7e65 .pageWrapper_a3a4ce {
+.appMount__51fd7 .pageWrapper_a3a4ce {
     background: $grey;
 
     .scroller_a3a4ce {
@@ -67,7 +67,7 @@
         }
     }
 
-    .card_eb1ca6 {
+    .card_e90879 {
         @include boxes.clickable;
 
         &:is(:focus, :hover) {
@@ -160,14 +160,14 @@
         }
     }
 
-    .pageControl_b48941 {
+    .pageControl_c15210 {
         @include boxes.inset;
 
-        .roundButton_b48941 {
+        .roundButton_c15210 {
             @include boxes.clickable;
             margin: 0;
 
-            &.activeButton_b48941 {
+            &.activeButton_c15210 {
                 @include boxes.inset;
                 background: unset;
                 color: $black;
@@ -177,14 +177,14 @@
 }
 
 // Student hubs / custom guild directory
-.pageContainer_a9a262 {
+.pageContainer__09fde {
     @include boxes.inset;
 
-    .card_f18d6c {
+    .card__0c0bf {
         @include boxes.box;
     }
 }
-.scroller_c43953:has(.itemInner__2abad) {
+.scroller__629e4:has(.itemInner__2abad) {
     min-height: 200px;
 
     .itemInner__2abad {

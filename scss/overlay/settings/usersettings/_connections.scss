@@ -2,33 +2,33 @@
 @use "../../../top/boxes" as boxes;
 
 // # Connections
-.connectContainer_e2a436 {
+.connectContainer_c7f964 {
     @include boxes.box;
     padding: 8px;
 
-    .connectionsContainer_e2a436 {
+    .connectionsContainer_c7f964 {
         margin-top: 4px;
         gap: 0;
 
-        .inner_c36ce4,
-        .accountAddInner_e2a436 {
+        .inner__02fc8,
+        .accountAddInner_c7f964 {
             @include boxes.clickable;
         }
     }
 }
 
-.connectionList_e2a436 {
+.connectionList_c7f964 {
     grid-gap: 0;
 
-    .connection_e2a436 {
+    .connection_c7f964 {
         @include boxes.box;
         padding: 0;
         margin-bottom: 0;
 
-        .connectionHeader_e2a436 {
+        .connectionHeader_c7f964 {
             padding: 8px;
 
-            .connectionDelete_e2a436 {
+            .connectionDelete_c7f964 {
                 margin: 0;
                 align-self: flex-start;
 
@@ -40,7 +40,7 @@
             }
         }
 
-        .upsellWrapper_e2a436 {
+        .upsellWrapper_c7f964 {
             padding: 8px;
 
             .container-QlmnKJ {
@@ -49,16 +49,16 @@
             }
         }
 
-        .metadataContainer_e2a436 {
+        .metadataContainer_c7f964 {
             padding: 0 8px;
             margin: 0;
         }
 
-        .connectionOptionsWrapper_e2a436 {
+        .connectionOptionsWrapper_c7f964 {
             padding: 8px;
 
-            .connectionOptions_e2a436 {
-                .connectionOptionSwitch_e2a436 {
+            .connectionOptions_c7f964 {
+                .connectionOptionSwitch_c7f964 {
                     margin-bottom: 0px;
                     padding: 0;
                 }

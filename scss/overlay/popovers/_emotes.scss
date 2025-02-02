@@ -1,7 +1,7 @@
 @use "../../top/vars" as *;
 @use "../../top/boxes" as boxes;
 
-.contentWrapper_af5dbb,
+.contentWrapper__08434,
 .contentWrapper_eab878 {
     @include boxes.box;
     // grid-row-gap: 0;
@@ -9,66 +9,66 @@
 
 // Gifs / Stickers / Emojis tabs
 // Reaction / Super Reaction tabs
-:is(.nav_af5dbb, .nav__2aafa) {
+:is(.nav__08434, .nav__2aafa) {
     border-bottom: 1px solid $darkgrey;
 }
-:is(.navItem_af5dbb, .navItem_bd587d) {
+:is(.navItem__08434, .navItem_bd587d) {
     @include boxes.tab;
     margin-right: 0;
     top: -2px;
 
-    & + .navItem_af5dbb {
+    & + .navItem__08434 {
         margin-left: 0;
     }
 
-    &:is(.navButtonActive_af5dbb, .navButtonActive_b003de) {
+    &:is(.navButtonActive__08434, .navButtonActive_b003de) {
         background: $grey;
         color: var(--interactive-active);
     }
 }
 
 // Search bar
-:is(.container_effbe2, .container__33507) {
+:is(.container_fea832, .container__33507) {
     @include boxes.inset;
     background: $bg;
     margin-right: 0;
 
-    .inner_effbe2 {
+    .inner_fea832 {
         padding-right: 1px !important;
         overflow: hidden !important;
     }
 
-    :is(.input_effbe2, .input__48d49) {
+    :is(.input_fea832, .input__48d49) {
         color: $text;
     }
 
     // Search button
-    :is(.iconLayout_effbe2, .iconLayout__67261) {
+    :is(.iconLayout_fea832, .iconLayout__67261) {
         @include boxes.clickable;
         background: $grey;
         cursor: pointer;
     }
 
-    &.disabled_effbe2 :is(.iconLayout_effbe2, .iconLayout__67261) {
+    &.disabled_fea832 :is(.iconLayout_fea832, .iconLayout__67261) {
         @include boxes.box;
     }
 }
 
 // Header
-:is(.emojiPickerHasTabWrapper_c6ee36 .header_c6ee36, .header_c6ee36, .header_d8cdac, .header_b56bbc) {
+:is(.emojiPickerHasTabWrapper_c0e32c .header_c0e32c, .header_c0e32c, .header__8ef02, .header_fed6d3) {
     padding: 0 8px 8px;
 
     // VC picker
-    &.emojiPickerHeader_bdea70 {
+    &.emojiPickerHeader__0800c {
         padding-top: 8px;
 
-        .tooltipContainer_b7d6f1 {
+        .tooltipContainer_df4aaf {
             @include boxes.clickable;
         }
     }
 
     // Back button
-    .backButton_b56bbc {
+    .backButton_fed6d3 {
         @include boxes.clickable;
         margin-right: 0;
         padding: 2px 4px;
@@ -76,11 +76,11 @@
     }
 
     // Skin tone selector
-    .diversitySelectorButton_cce80d {
+    .diversitySelectorButton_a45a2a {
         @include boxes.clickable;
         padding: 4px;
     }
-    .diversitySelectorOptions_cce80d {
+    .diversitySelectorOptions_a45a2a {
         @include boxes.box($position: absolute);
         right: 16px;
     }
@@ -92,7 +92,7 @@
 }
 
 // Emoji picker only panel, eg. in custom status modal
-.layer_cd0de5 #emoji-picker-tab-panel {
+.layer_da8173 #emoji-picker-tab-panel {
     @include boxes.box;
     background: $grey;
     padding-top: 8px;
@@ -103,18 +103,18 @@
     background: $grey;
 
     // Scroller
-    .container_af1167 {
+    .container_d02962 {
         background: $bg;
     }
 
     // Favourites
-    .categoryFadeBlurple_af1167 {
+    .categoryFadeBlurple_d02962 {
         background: $darkblue;
         opacity: 0.7;
     }
 
     // Gif / Category
-    .result_bad108 {
+    .result__2dc39 {
         background: $bg !important;
         @include boxes.clickable;
 
@@ -125,7 +125,7 @@
 }
 
 // Emoji / Sticker picker
-:is(.bodyWrapper_c6ee36, .listWrapper_d8cdac) {
+:is(.bodyWrapper_c0e32c, .listWrapper__8ef02) {
     background: $bg;
 
     // Super reactions ad
@@ -136,47 +136,47 @@
     }
 
     // No results search suggestion
-    .searchSuggestion_de4721 {
+    .searchSuggestion_e94b8c {
         @include boxes.clickable;
     }
 
     // Emojis list
-    .listItems_dcade6 {
+    .listItems_affa7e {
         left: 0 !important;
 
         // Category section
-        .categorySection_a3bc57 {
+        .categorySection_c656ac {
             margin-bottom: 0;
         }
 
         // Category header
-        :is(.header_a3bc57, .packHeader_de4721) {
+        :is(.header_c656ac, .packHeader_e94b8c) {
             @include boxes.box;
             z-index: 2;
 
-            .header_e06857 {
+            .header__14245 {
                 width: 100%;
                 height: 100%;
             }
 
-            .headerLabel_e06857 {
+            .headerLabel__14245 {
                 text-transform: none;
             }
         }
 
-        .emojiItem_fbfedd {
+        .emojiItem_fc7141 {
             @include boxes.clickable;
 
             &.emojiItemDisabled__843ea {
                 @include boxes.box;
             }
 
-            &.emojiItemSelected_fbfedd {
+            &.emojiItemSelected_fc7141 {
                 background: transparent;
             }
         }
 
-        .row_a708c4 {
+        .row_c6367b {
             $gap: 32px;
             column-gap: $gap !important;
             margin-left: $gap;
@@ -185,7 +185,7 @@
             & > div {
                 @include boxes.clickable;
 
-                .inspectedIndicator_a708c4 {
+                .inspectedIndicator_c6367b {
                     background: transparent;
                 }
             }
@@ -194,22 +194,22 @@
 }
 
 // Emoji info
-.inspector_c3120f {
+.inspector_aeaaeb {
     @include boxes.box;
 }
 
 // Servers list
-:is(.emojiPickerHasTabWrapper_c6ee36 .categoryList_c6ee36, .categoryList_c6ee36, .categoryList_a7a485) {
+:is(.emojiPickerHasTabWrapper_c0e32c .categoryList_c0e32c, .categoryList_c0e32c, .categoryList__3ad28) {
     @include boxes.box($position: absolute);
     top: 45px;
 
-    :is(.categoryItem_dfa278, .stickerCategory_a7a485) {
+    :is(.categoryItem_b9ee0c, .stickerCategory__3ad28) {
         @include boxes.clickable;
         margin-bottom: 0;
     }
 
     // Divider
-    :is(.guildCategorySeparator_dfa278, .guildCategorySeparator_a7a485) {
+    :is(.guildCategorySeparator_b9ee0c, .guildCategorySeparator__3ad28) {
         border: unset;
         margin: 4px;
     }

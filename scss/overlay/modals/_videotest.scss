@@ -3,17 +3,17 @@
 
 // Preview camera
 
-.backgroundOptionsSmall_ad7d79 {
+.backgroundOptionsSmall__53965 {
     gap: 8px;
 }
 
-.backgroundOptionRing_ad7d79 {
+.backgroundOptionRing__53965 {
     border-color: $blue;
 }
 
-.backgroundOption_ad7d79:hover:not(.backgroundOption_ad7d79.backgroundOptionDisabled_ad7d79):not(.backgroundOptionSelected_ad7d79) {
+.backgroundOption__53965:hover:not(.backgroundOption__53965.backgroundOptionDisabled__53965):not(.backgroundOptionSelected__53965) {
     &,
-    .backgroundImageOption_ad7d79 {
+    .backgroundImageOption__53965 {
         transform: none !important;
     }
 }

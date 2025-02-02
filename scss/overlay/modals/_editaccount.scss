@@ -2,24 +2,24 @@
 @use "../../top/boxes" as boxes;
 
 // Edit / add phone number
-.phoneVerificationModal_a4eb9e {
-    .animationContainer_a4eb9e {
+.phoneVerificationModal_db41ea {
+    .animationContainer_db41ea {
         z-index: 1;
     }
 
-    .phoneField_d4eb58 {
+    .phoneField_a0c54f {
         @include boxes.inset;
 
-        .plusSign_d4eb58,
-        .countryCode_d4eb58 {
+        .plusSign_a0c54f,
+        .countryCode_a0c54f {
             color: $black;
         }
 
-        .phoneFieldExpand_d4eb58 {
+        .phoneFieldExpand_a0c54f {
             stroke: $black;
         }
 
-        .inputField_d4eb58 {
+        .inputField_a0c54f {
             color: $text;
         }
     }
@@ -31,10 +31,10 @@
 }
 
 // Edit username
-.multiInput_aefbba {
+.multiInput_b404ff {
     height: 24px;
 
-    .inputPrefix_f8bc55 {
+    .inputPrefix__0f084 {
         display: none;
     }
 

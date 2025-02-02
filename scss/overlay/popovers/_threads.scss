@@ -2,16 +2,16 @@
 @use "../../top/boxes" as boxes;
 
 // Threads
-.browser_f542fc {
+.browser_d98031 {
     @include boxes.box;
 
-    .header_e664f3 {
-        .divider_e664f3,
-        .spacer_e664f3 {
+    .header_d9c882 {
+        .divider_d9c882,
+        .spacer_d9c882 {
             display: none;
         }
 
-        .searchBox_e664f3 {
+        .searchBox_d9c882 {
             @include boxes.inset;
             background: $bg;
 
@@ -25,26 +25,26 @@
             }
         }
 
-        .createButton_e664f3 {
+        .createButton_d9c882 {
             height: 26px;
         }
 
-        .closeIcon_e664f3 {
+        .closeIcon_d9c882 {
             @include boxes.clickable;
             height: 24px;
         }
 
-        .searchBox_e664f3,
-        .createButton_e664f3 {
+        .searchBox_d9c882,
+        .createButton_d9c882 {
             margin-right: 0;
         }
     }
 
-    .container_acb8b3 {
+    .container__6764b {
         @include boxes.clickable;
     }
 
-    .jump_d5deea {
+    .jump__5126c {
         @include boxes.clickable($position: absolute);
     }
 }

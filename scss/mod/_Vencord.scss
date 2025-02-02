@@ -4,7 +4,7 @@
 // Vencord
 
 // Theme links
-.inputWrapper_f8bc55 .vc-settings-theme-links.input_f8bc55 {
+.inputWrapper__0f084 .vc-settings-theme-links.input__0f084 {
     max-height: unset;
     height: 10rem;
     color: $text !important;
@@ -22,7 +22,7 @@
         margin-bottom: 0;
     }
 
-    .icons_f6639d {
+    .icons__3f413 {
         width: 20px;
         height: 20px;
         color: $black;
@@ -42,10 +42,10 @@
     .vc-addon-header > div:last-child {
         @include boxes.box;
 
-        .container_cebd1c {
+        .container__87bf1 {
             background: $darkgrey !important;
 
-            .slider_cebd1c {
+            .slider__87bf1 {
                 rect {
                     fill: $lightgrey;
                 }
@@ -54,10 +54,10 @@
                 }
             }
 
-            &.checked_cebd1c {
+            &.checked__87bf1 {
                 background: $green !important;
 
-                .slider_cebd1c {
+                .slider__87bf1 {
                     svg path {
                         fill: $green;
                     }
@@ -87,7 +87,7 @@
 }
 
 // Donate link
-.vc-settings-donate .lookLink_dd4f85.colorTransparent_dd4f85 {
+.vc-settings-donate .lookLink__201d5.colorTransparent__201d5 {
     color: $black;
 }
 

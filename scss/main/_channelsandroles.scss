@@ -2,36 +2,36 @@
 @use "../top/boxes" as boxes;
 
 // Tabs
-.tabBar_f1fd9c {
+.tabBar__0b563 {
     margin: 0 16px;
     border-bottom: 0;
 
-    .tabBarItem_f1fd9c {
+    .tabBarItem__0b563 {
         padding-bottom: 8px;
     }
 }
 
 // Customise
-.appMount_ea7e65 .scrollerContainer_c6b11b {
+.appMount__51fd7 .scrollerContainer_c6b11b {
     background: $bg;
     @include boxes.inset;
 }
 
-.pageBody_c6b11b h2 {
+.pageBody__5d7c9 h2 {
     color: $text !important;
 }
 
-.prompt_c6b11b {
+.prompt__5d7c9 {
     background: $bg;
     border-color: unset !important;
     padding: 0;
 }
 
-.promptOptions_c6b11b {
+.promptOptions__5d7c9 {
     gap: 0;
 }
 
-.optionButtonWrapper_bd5e1f {
+.optionButtonWrapper__270d7 {
     background: $grey;
     @include boxes.clickable;
 
@@ -43,40 +43,40 @@
         border-color: $black $white $white $black;
     }
 
-    &.pressed_bd5e1f {
+    &.pressed__270d7 {
         transform: none;
     }
 
-    &.selected_bd5e1f {
+    &.selected__270d7 {
         @include boxes.inset;
 
-        .checkIcon_bd5e1f {
+        .checkIcon__270d7 {
             top: 4px;
             right: 4px;
         }
     }
 }
 
-.helpText_c6b11b {
+.helpText__5d7c9 {
     .text-xs-medium__220aa {
         color: $text !important;
     }
 }
 
 // Browse channels
-.pageBody_c2efea {
+.pageBody__41ed7 {
     padding-left: 0;
 }
 
-.browser_c2efea {
+.browser__41ed7 {
     background: $bg;
     @include boxes.scroller;
 }
 
-.selectAll_f04d06 .checkboxWrapper_f6cde8 .checkbox_f6cde8 {
+.selectAll_e4503a .checkboxWrapper_f525d3 .checkbox_f525d3 {
     border-color: var(--text-muted) !important;
 
-    &.checked_f6cde8 path {
+    &.checked_f525d3 path {
         fill: var(--text-muted);
     }
 }

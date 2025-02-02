@@ -5,7 +5,7 @@
     // Badges
     .badgeList_ec3b75 {
         gap: 0;
-        .anchor_af404b {
+        .anchor_edefb8 {
             @include boxes.clickable;
         }
     }
@@ -25,10 +25,10 @@
             height: auto;
             padding: 2px 8px;
 
-            &.themed_a0 {
+            &.themed_b3f026 {
                 color: var(--text-normal);
 
-                &:is(.selected_a0, :active) {
+                &:is(.selected_b3f026, :active) {
                     background: unset;
                     font-weight: bold;
                 }
@@ -37,7 +37,7 @@
     }
 
     // Info
-    .scrollerBase_eed6a8 {
+    .scrollerBase__99f8c {
         @include boxes.box;
 
         &::before {
@@ -49,26 +49,26 @@
         }
 
         // Connected accounts
-        .connectedAccounts_f3eb60 {
+        .connectedAccounts_e6abe8 {
             display: block;
             width: 100%;
 
-            .connectedAccountsColumn_f3eb60 {
+            .connectedAccountsColumn_e6abe8 {
                 display: inline;
                 margin-left: 0;
 
-                .connectedAccountContainer_f3eb60 {
+                .connectedAccountContainer_e6abe8 {
                     @include boxes.inset;
                     display: inline-block;
                     width: calc(460px / 3);
                     margin: 6px 6px 0 0;
 
                     // Open account in browser
-                    &:has(.anchor_af404b) {
+                    &:has(.anchor_edefb8) {
                         @include boxes.clickable;
                     }
 
-                    .anchor_af404b {
+                    .anchor_edefb8 {
                         position: absolute;
                         inset: 0;
 
@@ -78,17 +78,17 @@
                     }
 
                     // Hide detailed info until hover
-                    &.connectedAccountContainerWithMetadata_f3eb60 {
+                    &.connectedAccountContainerWithMetadata_e6abe8 {
                         padding: 12px 8px;
 
-                        .connectedAccountName_f3eb60 + .text-xs-normal_ccc5fb,
-                        .connectedAccountChildren_f3eb60 {
+                        .connectedAccountName_e6abe8 + .text-xs-normal_ccc5fb,
+                        .connectedAccountChildren_e6abe8 {
                             display: none;
                         }
 
                         &:hover {
-                            .connectedAccountName_f3eb60 + .text-xs-normal_ccc5fb,
-                            .connectedAccountChildren_f3eb60 {
+                            .connectedAccountName_e6abe8 + .text-xs-normal_ccc5fb,
+                            .connectedAccountChildren_e6abe8 {
                                 display: block;
                                 z-index: 1;
                                 padding: 8px;
@@ -96,14 +96,14 @@
                             }
 
                             // Joined date
-                            .connectedAccountName_f3eb60 + .text-xs-normal_ccc5fb {
+                            .connectedAccountName_e6abe8 + .text-xs-normal_ccc5fb {
                                 position: absolute;
                                 pointer-events: none;
                                 inset: 1px 1px 1px 32px;
                             }
 
                             // Detailed info
-                            &:hover .connectedAccountChildren_f3eb60 {
+                            &:hover .connectedAccountChildren_e6abe8 {
                                 @include boxes.box($position: absolute);
                                 bottom: 50px;
                                 left: -33px;
@@ -115,7 +115,7 @@
         }
 
         // Mutual servers
-        .listRow_e4be58 {
+        .listRow__9d78f {
             margin: 0;
 
             &:hover {

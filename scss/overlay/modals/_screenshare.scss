@@ -9,12 +9,12 @@
 }
 
 // Tabs
-.tabItem_a18ec1 {
+.tabItem__9e06a {
     @include boxes.tab;
     margin-right: 0;
     color: $black;
 
-    &.tabItemSelected_a18ec1 {
+    &.tabItemSelected__9e06a {
         border-bottom: unset;
         color: $black;
         text-decoration: underline;
@@ -22,16 +22,16 @@
 }
 
 // Screens
-.sourceScroller_d7ec26 {
+.sourceScroller_a2de16 {
     @include boxes.scroller;
 }
 
-.sourceContainer_d7ec26 {
+.sourceContainer_a2de16 {
     gap: 8px;
 }
 
 // Screen
-.tile_d7ec26 {
+.tile_a2de16 {
     @include boxes.clickable;
     padding: 8px 0;
     flex: 0 1 calc(50% - 4px) !important;
@@ -47,22 +47,22 @@
 }
 
 // Stream quality
-.qualitySettingsContainer_a78967 {
+.qualitySettingsContainer_c6d3dc {
     @include boxes.inset;
 
-    .selectorButton_a78967 {
+    .selectorButton_c6d3dc {
         @include boxes.clickable;
 
         &:not(.selectorButtonPremiumRequired__9df5b):hover {
             background: $grey;
 
-            .selectorText_a78967 {
+            .selectorText_c6d3dc {
                 color: $black;
             }
         }
     }
 
-    .selectorButtonSelected_a78967 {
+    .selectorButtonSelected_c6d3dc {
         @include boxes.inset;
         background: $grey;
         .selectorTextSelected__147ec {

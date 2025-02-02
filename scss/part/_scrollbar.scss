@@ -2,7 +2,7 @@
 @use "../top/boxes" as boxes;
 
 // Scrollbars always visible
-:is(.fade_eed6a8, .fade_c49869) {
+:is(.fade__99f8c, .fade_d125d2) {
     &::-webkit-scrollbar-thumb,
     &::-webkit-scrollbar-track {
         visibility: visible;
@@ -10,15 +10,15 @@
 }
 
 // Main scrollbars
-.scrollerBase_eed6a8,
-.scrollerBase_c49869,
+.scrollerBase__99f8c,
+.scrollerBase_d125d2,
 // Chatbox scrollbar
-.scrollableContainer_d0696b,
+.scrollableContainer__74017,
 // Textbox scrollbar
 .webkit__8d35a,
 // Spooky scary scrollbars
-.scrollbarGhostHairline_c858ce {
-    &:not(.none_eed6a8, .none_c49869)::-webkit-scrollbar {
+.scrollbarGhostHairline__506b3 {
+    &:not(.none__99f8c, .none_d125d2)::-webkit-scrollbar {
         width: 18px;
     }
 
@@ -34,7 +34,7 @@
 }
 
 // Code view scrollbar
-.codeView_ad9cbd::-webkit-scrollbar-track {
+.codeView__4d95d::-webkit-scrollbar-track {
     margin: 0;
 }
 

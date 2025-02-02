@@ -3,22 +3,22 @@
 
 // Report message
 
-.header_e89716 {
+.header__527b1 {
     padding: 16px;
 }
 
-.messagePreviewContainer_b06e1c {
+.messagePreviewContainer_f96002 {
     background: $bg;
     @include boxes.inset;
 }
 
-.childButton_f45bfc {
+.childButton__3ed08 {
     @include boxes.clickable;
     margin-bottom: 0;
     min-height: auto;
 }
 
-.checkboxRow_a7652f {
+.checkboxRow_d1f0f0 {
     @include boxes.clickable;
     padding: 4px;
 

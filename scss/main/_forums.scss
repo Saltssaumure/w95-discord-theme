@@ -2,21 +2,21 @@
 @use "../top/boxes" as boxes;
 
 // Channel header
-.forumOrHome_ff5f90 {
+.forumOrHome__49676 {
     --__header-bar-background: #{$grey};
 }
 
 // Tags
-.pill_c993da {
+.pill_a2c9e8 {
     @include boxes.clickable;
     background: $grey;
-    &.selected_c993da {
+    &.selected_a2c9e8 {
         @include boxes.inset;
     }
 }
 
 // Main container
-.container_a6d69a {
+.container_f369db {
     @include boxes.inset;
     background: $bg;
 
@@ -25,10 +25,10 @@
     --bg-mod-subtle: none;
 
     // Post tags
-    @at-root .tags_f451cd {
+    @at-root .tags__08166 {
         gap: 0;
 
-        & > :is(.pinIcon_f451cd, .tagPill_a57509) {
+        & > :is(.pinIcon__08166, .tagPill__9a337) {
             @include boxes.box;
             background: $grey;
 
@@ -39,12 +39,12 @@
     }
 
     // New post bubble
-    @at-root .newPostsButton_a6d69a {
+    @at-root .newPostsButton_f369db {
         z-index: 2;
     }
 
     // Wrapper around everything
-    .content_eed6a8 {
+    .content__99f8c {
         padding-left: 24px;
         padding-right: 24px;
 
@@ -55,7 +55,7 @@
             left: 0 !important;
             width: 100% !important;
 
-            .headerRow_a6d69a {
+            .headerRow_f369db {
                 left: 0 !important;
                 width: inherit !important;
             }
@@ -67,51 +67,51 @@
         }
 
         // Tag area in text posts
-        .textContentFooter_a57509 {
+        .textContentFooter__9a337 {
             background: transparent;
         }
     }
 
     // Everything but post cards
-    .headerRow_a6d69a {
+    .headerRow_f369db {
         padding: 0;
         background: $grey;
 
         // Filter by tags bar
-        .tagsContainer_a6d69a {
+        .tagsContainer_f369db {
             @include boxes.box;
             background: $grey;
             padding: 2px 12px;
 
             // Sort and view dropdown
-            .sortDropdown_a6d69a {
+            .sortDropdown_f369db {
                 margin-bottom: 0;
                 &[aria-expanded="true"] {
                     @include boxes.inset;
                 }
             }
 
-            .divider_a6d69a {
+            .divider_f369db {
                 display: none;
             }
 
-            .tagListInner_a6d69a {
+            .tagListInner_f369db {
                 gap: 0;
             }
         }
 
         // Matching post count bar
-        .matchingPostsRow_a6d69a {
+        .matchingPostsRow_f369db {
             @include boxes.box;
         }
 
         // Search/create posts bar
-        .mainCard_a6d69a {
+        .mainCard_f369db {
             margin-top: 0;
             @include boxes.box;
 
             // Search button and guidelines button
-            :is(.prefixElement_c1668f, .guidelinesButton_d7afe7) {
+            :is(.prefixElement_d9be46, .guidelinesButton_d7afe7) {
                 @include boxes.clickable;
                 display: flex;
                 justify-content: center;
@@ -128,52 +128,52 @@
             }
 
             // Post message
-            .contentContainer_c1668f {
+            .contentContainer_d9be46 {
                 padding-left: 32px;
 
                 div {
                     background: $bg;
 
-                    .channelTextArea_d0696b {
+                    .channelTextArea__74017 {
                         width: auto;
                     }
                 }
             }
 
             // Post attachments
-            .container_a15d29 {
+            .container__94439 {
                 align-self: flex-end;
 
-                .uploadInput_a15d29 {
+                .uploadInput__94439 {
                     @include boxes.clickable;
                     height: 76px;
                     width: 76px;
                 }
 
                 // Attachment not image type
-                .icon_f847a3 {
+                .icon__41ea0 {
                     @include boxes.box;
                 }
 
                 // Attachment is image type
-                .mediaContainer_f847a3 > div:not([aria-expanded="false"]),
-                .mediaContainer_f847a3 > div:not([aria-expanded="false"]) > div {
+                .mediaContainer__41ea0 > div:not([aria-expanded="false"]),
+                .mediaContainer__41ea0 > div:not([aria-expanded="false"]) > div {
                     max-height: 76px;
                     max-width: 76px;
 
-                    .imageSmall_f847a3 {
+                    .imageSmall__41ea0 {
                         height: 76px;
                     }
                 }
 
                 // Number of attachments
-                .badge_a15d29 {
+                .badge__94439 {
                     z-index: 1;
                     background: $darkblue;
                 }
 
                 // Attachments popout
-                .popoutContainer_a15d29 {
+                .popoutContainer__94439 {
                     z-index: 1;
                     @include boxes.box($position: absolute);
                     padding: 0;
@@ -181,7 +181,7 @@
                     right: -8px;
 
                     // Scroller
-                    .popout_a15d29 {
+                    .popout__94439 {
                         padding-bottom: 0;
 
                         &::-webkit-scrollbar-track,
@@ -191,7 +191,7 @@
                         }
 
                         // Attachment controls
-                        .actionBarContainer_df1eaf {
+                        .actionBarContainer_aa605f {
                             z-index: 2;
                         }
                     }
@@ -199,26 +199,26 @@
             }
 
             // Create post button
-            .submitButton_c1668f {
+            .submitButton_d9be46 {
                 height: 30px;
             }
 
             // Divider
-            .tagsDivider_c1668f {
+            .tagsDivider_d9be46 {
                 display: none;
             }
 
             // Post tags
-            .tagsContainer_c1668f {
+            .tagsContainer_d9be46 {
                 margin-left: 8px;
                 margin-top: 0px;
-                .tagListInner_c1668f {
+                .tagListInner_d9be46 {
                     gap: 0;
                 }
             }
 
             // Post bar
-            .controlsContainer_c1668f {
+            .controlsContainer_d9be46 {
                 justify-content: flex-start;
                 gap: 0;
                 margin-top: 0;
@@ -231,12 +231,12 @@
                     width: 30px;
                 }
 
-                .controls_c1668f {
+                .controls_d9be46 {
                     flex-grow: initial;
                     gap: 0;
 
                     // Slowmode warning
-                    .wrappedControls_c1668f {
+                    .wrappedControls_d9be46 {
                         order: 1;
                         padding-left: 4px;
                     }
@@ -247,15 +247,15 @@
 }
 
 // Post card
-li.card_a6d69a {
+li.card_f369db {
     padding: 0;
     margin: 8px;
     @include boxes.clickable;
     background: $grey;
 }
 
-:is(.container_d331f1, .container_a57509) {
-    .markup_f8f345 {
+:is(.container_faa96b, .container__9a337) {
+    .markup__75297 {
         color: var(--text-normal);
     }
 
@@ -264,7 +264,7 @@ li.card_a6d69a {
         transform: none;
     }
 
-    &:not(.isOpen_d331f1, .isOpen_a57509) {
+    &:not(.isOpen_faa96b, .isOpen__9a337) {
         &:is(:hover, :active) {
             background: $grey;
         }
@@ -276,42 +276,42 @@ li.card_a6d69a {
         }
     }
 
-    &:is(.isOpen_d331f1, .isOpen_a57509) {
+    &:is(.isOpen_faa96b, .isOpen__9a337) {
         @include boxes.inset;
     }
 
     // Post content preview
-    .thumbnailContainer_d331f1,
-    .contentPreview_a57509,
-    .bodyMedia_a57509 {
+    .thumbnailContainer_faa96b,
+    .contentPreview__9a337,
+    .bodyMedia__9a337 {
         @include boxes.inset;
     }
 
     // Text content
-    .contentPreview_a57509 {
+    .contentPreview__9a337 {
         background: $bg;
 
-        .markup_f8f345 {
+        .markup__75297 {
             color: $text;
         }
     }
 }
 
 // Opened post
-.scrollerInner_e2e187 {
+.scrollerInner__36d07 {
     overflow: unset;
 
     // Post alert options bar
-    .container_b385c8 {
+    .container__34c2c {
         @include boxes.box;
         position: sticky;
         top: 0;
 
-        .buttons_b385c8 {
+        .buttons__34c2c {
             gap: 0;
 
-            @at-root .addReactButton_b385c8,
-                .buttonInner_b385c8 {
+            @at-root .addReactButton__34c2c,
+                .buttonInner__34c2c {
                 @include boxes.clickable;
                 height: 20px;
 
@@ -324,6 +324,6 @@ li.card_a6d69a {
 }
 
 // OP post and post replies divider
-.divider_af45f8 {
+.divider_ee23ac {
     display: none;
 }

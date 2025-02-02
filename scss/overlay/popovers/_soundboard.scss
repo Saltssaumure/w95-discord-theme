@@ -1,12 +1,12 @@
 @use "../../top/vars" as *;
 @use "../../top/boxes" as boxes;
 
-.picker_cd703d {
+.picker__09f65 {
     @include boxes.box;
 }
 
 // Soundboard volume
-.settingsClickArea_ca5acd {
+.settingsClickArea__61424 {
     @include boxes.clickable;
     margin-left: 0;
     box-sizing: border-box;
@@ -18,17 +18,17 @@
 }
 
 // Category list
-.categoryList_ceda83 {
+.categoryList_a1e0e0 {
     @include boxes.box($position: absolute);
     top: 61px;
 
-    .listItems_dcade6 {
+    .listItems_affa7e {
         inset: 6px !important;
     }
 }
 
 // Category icon
-.category_ceda83 {
+.category_a1e0e0 {
     @include boxes.clickable;
     margin-bottom: 0;
     height: 36px;
@@ -36,12 +36,12 @@
 }
 
 // Sounds panel
-.wrapper_cdfd51 {
+.wrapper_d852db {
     background: $bg;
 }
 
 // Category header
-.sectionHeader_ca5acd {
+.sectionHeader__61424 {
     background: $grey;
     @include boxes.box;
     inset: -8px 0 0 -8px;
@@ -51,15 +51,15 @@
 }
 
 // Button arrangement
-.soundRow_ca5acd {
+.soundRow__61424 {
     gap: 0;
 
-    &:not(:has(+ .sectionHeader_ca5acd)) {
+    &:not(:has(+ .sectionHeader__61424)) {
         margin-bottom: 0;
     }
 }
 
 // Sound
-.soundButton_f40049 {
+.soundButton__6d4ed {
     @include boxes.clickable;
 }

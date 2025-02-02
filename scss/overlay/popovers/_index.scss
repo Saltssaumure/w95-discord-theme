@@ -21,7 +21,7 @@
 @use "../../top/boxes" as boxes;
 
 // Inner message scroller in pinned / inbox
-.layerContainer_cd0de5 [class^="header-"] + :is(.messagesPopout_ac90a2, .scrollerBase_eed6a8) {
+.layerContainer_da8173 [class^="header-"] + :is(.messagesPopout__45690, .scrollerBase__99f8c) {
     @include boxes.inset;
     margin: 0 6px 6px 6px;
 
@@ -31,6 +31,6 @@
 }
 
 // Max height for pinned / inbox
-.messagesPopoutWrap_ac90a2 {
+.messagesPopoutWrap__45690 {
     max-height: calc(100vh - $window-top - 120px) !important;
 }

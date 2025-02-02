@@ -2,29 +2,29 @@
 @use "../top/boxes" as boxes;
 
 :is(
-        .button_b9fe76,
-        .welcomeCTAButtonOuter_f6dde0,
-        .friendRequestsButton_c0c071,
-        .button__292b6,
-        .lookFilled_dd4f85,
-        .lookOutlined_dd4f85,
-        .lookInverted_a299dc
-    ) {
+    .button_d5f3cd,
+    .welcomeCTAButtonOuter_f5d1e2,
+    .friendRequestsButton__523aa,
+    .button__292b6,
+    .lookFilled__201d5,
+    .lookOutlined__201d5,
+    .lookInverted_a299dc
+) {
     @include boxes.clickable;
 }
 
 :is(.theme-dark, .theme-light) {
-    .lookLink_dd4f85.colorPrimary_dd4f85 {
+    .lookLink__201d5.colorPrimary__201d5 {
         color: $black;
 
-        &:hover .contents_dd4f85 {
+        &:hover .contents__201d5 {
             --button--underline-color: #{$black};
         }
     }
 }
 
-.appMount_ea7e65 .lookFilled_dd4f85 {
-    &:is(.colorBrand_dd4f85, .colorBrand_dd4f85:disabled, .colorBrand_dd4f85[aria-disabled="true"], .colorBrandNew__8872c) {
+.appMount__51fd7 .lookFilled__201d5 {
+    &:is(.colorBrand__201d5, .colorBrand__201d5:disabled, .colorBrand__201d5[aria-disabled="true"], .colorBrandNew__8872c) {
         color: $black;
         background: $lightgrey;
 
@@ -34,7 +34,7 @@
         }
     }
 
-    &:is(.colorPrimary_dd4f85, .colorTransparent_dd4f85) {
+    &:is(.colorPrimary__201d5, .colorTransparent__201d5) {
         color: $black;
     }
 }

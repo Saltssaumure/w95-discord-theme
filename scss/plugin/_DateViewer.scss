@@ -6,7 +6,7 @@
 
 $dv-width: 80px;
 
-.members_cbd271 {
+.members_c8ffbb {
     margin-bottom: unset;
 }
 
@@ -38,12 +38,12 @@ $dv-width: 80px;
     }
 }
 
-body #app-mount:has(#dv-mount) .guilds_a4d4d9 {
+body #app-mount:has(#dv-mount) .guilds_c48ade {
     height: calc(100vw - $panel-width - $dv-width) !important;
     left: calc(100vw - $panel-width - $dv-width);
 }
 
-.appMount_ea7e65:has(#dv-mount) .panels_a4d4d9 {
+.appMount__51fd7:has(#dv-mount) .panels_c48ade {
     left: calc(100vw - $panel-width - $dv-width);
     &,
     &::before {

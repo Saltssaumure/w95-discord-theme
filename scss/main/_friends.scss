@@ -2,19 +2,19 @@
 @use "../top/boxes" as boxes;
 
 // Titlebar
-.children_e44302 {
+.children__9293f {
     overflow: visible;
 
-    .topPill_a0 {
+    .topPill_b3f026 {
         position: relative;
         top: 12px;
         left: 10px;
 
-        .item_a0 {
+        .item_b3f026 {
             @include boxes.tab;
             margin: 0;
 
-            &.selected_a0 {
+            &.selected_b3f026 {
                 text-decoration: underline;
             }
         }
@@ -22,10 +22,10 @@
 }
 
 // Online / All / Pending / Blocked / Add Friend
-.peopleColumn_c2739c {
+.peopleColumn__133bf {
     @include boxes.inset;
 
-    .searchBar_e0840f {
+    .searchBar__5ec2f {
         @include boxes.inset;
         background: $bg;
         color: $text;
@@ -42,21 +42,21 @@
         }
     }
 
-    .title_a1cafe {
+    .title__1472a {
         margin: 8px 12px 4px;
     }
 
-    .peopleList_e0840f {
+    .peopleList__5ec2f {
         margin: 0 8px 8px;
         padding-bottom: 0;
         @include boxes.inset;
 
-        .peopleListItem_d51464 {
+        .peopleListItem_cc6179 {
             margin: 0;
             padding: 8px;
             @include boxes.clickable;
 
-            .actionButton_e01b91 {
+            .actionButton_f8fa06 {
                 @include boxes.clickable;
                 height: 24px;
                 width: 24px;
@@ -68,42 +68,42 @@
         }
     }
 
-    .header_c96274 {
+    .header__94b08 {
         border-bottom: 0;
     }
 
-    .header_c96274,
-    .header_aef5fd {
+    .header__94b08,
+    .header_a14595 {
         padding: 8px;
     }
 
     // Other places to make friends
-    .grid_aef5fd {
+    .grid_a14595 {
         padding: 0 8px;
         gap: 8px;
 
-        .container_aef5fd {
+        .container_a14595 {
             @include boxes.clickable;
         }
     }
 
     // Add friend
-    .addFriendInputWrapper_de812f {
+    .addFriendInputWrapper__72ba7 {
         padding: 0;
 
-        .addFriendInput_de812f {
+        .addFriendInput__72ba7 {
             margin-right: 0;
         }
     }
 }
 
 // Friend activity
-.nowPlayingColumn_c2739c {
-    .scroller_bf550a {
+.nowPlayingColumn__133bf {
+    .scroller__7d20c {
         @include boxes.scroller;
         padding: 0 !important;
 
-        .header_bf550a {
+        .header__7d20c {
             position: sticky;
             top: 0;
             margin: 0 0 8px;
@@ -113,7 +113,7 @@
             z-index: 2;
         }
 
-        .itemCard_f02fcf {
+        .itemCard__7e549 {
             @include boxes.clickable;
             margin: 0 8px;
             padding: 12px;
@@ -122,7 +122,7 @@
                 background: $grey;
             }
 
-            .body_cd82a7 {
+            .body__00943 {
                 @include boxes.inset;
             }
         }
@@ -130,11 +130,11 @@
 }
 
 // Message requests
-.list_f3abf4 {
+.list_f391e3 {
     @include boxes.scroller;
     padding: 8px !important;
 
-    .content_eed6a8 > div:first-child {
+    .content__99f8c > div:first-child {
         display: none;
     }
 
@@ -145,16 +145,16 @@
         margin-bottom: 8px;
     }
 
-    .messageRequestItem_a5de62 {
+    .messageRequestItem_abb9ad {
         @include boxes.clickable;
 
-        .messageContent_f9f2ca {
+        .messageContent_c19a55 {
             color: $black;
         }
     }
 }
 
 // If empty
-.content_a7d72e:has(.emptyStateContainer_c353e6) {
+.content_f75fb0:has(.emptyStateContainer__65428) {
     @include boxes.inset;
 }

@@ -1,7 +1,7 @@
 @use "../../top/vars" as *;
 @use "../../top/boxes" as boxes;
 
-.searchBar_cedfaf {
+.searchBar__67dba {
     @include boxes.inset;
     background: $bg;
     color: $text;
@@ -16,30 +16,30 @@
     }
 }
 
-.scroller_cedfaf {
+.scroller__67dba {
     @include boxes.inset;
     padding: 0;
 
-    .inviteRow_cedfaf {
-        .inviteRowName_cedfaf {
+    .inviteRow__67dba {
+        .inviteRowName__67dba {
             color: $black;
         }
 
         &:hover {
             background: $darkblue;
 
-            .inviteRowName_cedfaf,
-            .contents_dd4f85 {
+            .inviteRowName__67dba,
+            .contents__201d5 {
                 color: $white;
             }
         }
     }
 }
 
-.layerContainer_cd0de5 .footer_cedfaf {
+.layerContainer_da8173 .footer__67dba {
     background: $grey;
 
-    .input_f8bc55 {
+    .input__0f084 {
         height: 32px;
     }
 
@@ -47,7 +47,7 @@
         margin-right: 0;
     }
 
-    .footerText_cedfaf {
+    .footerText__67dba {
         color: $black;
     }
 

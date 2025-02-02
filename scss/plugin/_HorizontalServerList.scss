@@ -4,35 +4,35 @@
 // Override HSL options
 
 // Override HSL
-body #app-mount .guilds_a4d4d9 {
+body #app-mount .guilds_c48ade {
     // Leave gap for control panel
     height: calc(100vw - $panel-width) !important;
     left: calc(100vw - $panel-width);
     z-index: 0;
 
-    .wrapper_bc7085 > .listItem_c96c45,
-    .scroller_fea3ef > div > .listItem_c96c45,
-    .scroller_fea3ef > .listItem_c96c45 {
+    .wrapper__48112 > .listItem__650eb,
+    .scroller_ef3116 > div > .listItem__650eb,
+    .scroller_ef3116 > .listItem__650eb {
         left: -7px;
         position: relative;
     }
 
-    .scroller_fea3ef > div > .listItem_c96c45 > .pill_a5ad63 {
+    .scroller_ef3116 > div > .listItem__650eb > .pill_e5445c {
         bottom: -20px !important;
     }
 }
 
 // Opened folder icon
-#app-mount .expandedFolderBackground_bc7085:not(.collapsed_bc7085) + .listItem_c96c45 {
+#app-mount .expandedFolderBackground__48112:not(.collapsed__48112) + .listItem__650eb {
     @include boxes.inset;
-    .expandedFolderIconWrapper_bc7085 {
+    .expandedFolderIconWrapper__48112 {
         display: none;
     }
 }
 
-#app-mount .guilds_a4d4d9 {
+#app-mount .guilds_c48ade {
     // Servers in opened folder
-    .wrapper_bc7085 ul[role="group"] {
+    .wrapper__48112 ul[role="group"] {
         gap: 0px;
         align-items: center;
     }
@@ -45,11 +45,11 @@ body #app-mount .guilds_a4d4d9 {
 
 // Titlebar on macOS
 html.platform-osx #app-mount {
-    .base_a4d4d9 {
+    .base_c48ade {
         top: 0 !important;
     }
 
-    .typeMacOS_a934d8 {
+    .typeMacOS__421ed {
         width: auto;
     }
 }

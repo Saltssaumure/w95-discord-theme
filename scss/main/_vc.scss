@@ -2,59 +2,59 @@
 @use "../top/boxes" as boxes;
 
 // Voice chat
-.wrapper_d880dc {
+.wrapper_cb9592 {
     margin-top: 28px;
     z-index: 0;
 
-    &.minimum_d880dc {
+    &.minimum_cb9592 {
         height: 204px;
     }
 
-    .callContainer_d880dc {
+    .callContainer_cb9592 {
         background: $bg;
     }
 
-    &:is(.chatSidebarOpen_d880dc, .fullScreen_d880dc, .noChat_d880dc) {
+    &:is(.sidebarOpen_cb9592, .fullScreen_cb9592, .noChat_cb9592) {
         height: calc(100% - 28px);
     }
 
-    .voiceCallWrapper_bae578 {
+    .voiceCallWrapper_a21736 {
         position: relative;
         padding: 0;
         top: -12px;
 
         // Avatars in DM VC
-        .participant_ea9cce {
+        .participant_c8dbe9 {
             margin: 0 4px;
         }
 
-        .callAvatarMask_a5cd29 {
+        .callAvatarMask_f910d0 {
             @include boxes.inset;
         }
     }
 
-    .videoControls_dd069c {
+    .videoControls_bfe55a {
         padding: 0;
 
         // No tint
-        .gradientContainer_dd069c {
+        .gradientContainer_bfe55a {
             background: none;
         }
 
-        .controlSection_dd069c {
+        .controlSection_bfe55a {
             background: $grey;
             border: 0 solid $darkgrey;
 
             // Top bar
-            &.topControls_dd069c:not(.minimum_d880dc .topControls_dd069c) {
+            &.topControls_bfe55a:not(.minimum_cb9592 .topControls_bfe55a) {
                 border-bottom-width: 1px;
             }
 
-            .headerWrapper_d880dc {
+            .headerWrapper_cb9592 {
                 margin: 0;
 
                 // Region selector
-                & + .horizontal_bba380 {
+                & + .horizontal__7c0ba {
                     margin-right: 8px;
                     position: absolute;
                     right: 0;
@@ -68,87 +68,87 @@
                 }
             }
 
-            .toolbar_e44302 button {
+            .toolbar__9293f button {
                 @include boxes.clickable;
                 margin: 0;
                 height: 32px;
                 width: 32px;
-                .controlIcon_ef18ee {
+                .controlIcon_f1ceac {
                     color: $black;
                 }
             }
 
             // Bottom bar
-            &.bottomControls_dd069c {
+            &.bottomControls_bfe55a {
                 padding: 8px;
                 width: auto;
 
-                &:not(.minimum_d880dc .bottomControls_dd069c) {
+                &:not(.minimum_cb9592 .bottomControls_bfe55a) {
                     border-top-width: 1px;
                 }
 
                 // Centre controls
-                .wrapper_b6e2f9 {
-                    .controlButton_b6e2f9 {
+                .wrapper__1405b {
+                    .controlButton__1405b {
                         @include boxes.clickable;
                         margin: 0;
 
                         // Active unmute button
-                        &:has(.white_ef18ee),
-                        &.white_ef18ee {
+                        &:has(.white_f1ceac),
+                        &.white_f1ceac {
                             @include boxes.inset;
                         }
                     }
 
                     // Set button colours
-                    .colorable_ef18ee {
+                    .colorable_f1ceac {
                         // Most buttons
-                        &.primaryDark_ef18ee {
+                        &.primaryDark_f1ceac {
                             background: unset;
                             color: $black;
 
-                            .centerIcon_ef18ee {
+                            .centerIcon_f1ceac {
                                 color: $black;
                             }
                         }
 
                         // Leave call button
-                        &:is(.red_ef18ee, .red_ef18ee:hover) {
+                        &:is(.red_f1ceac, .red_f1ceac:hover) {
                             background: $red;
                         }
 
                         // Active buttons
-                        &.white_ef18ee {
+                        &.white_f1ceac {
                             background: unset;
                         }
                     }
 
                     // Dropdown menu button in button
-                    .contextMenuNub_ef18ee {
+                    .contextMenuNub_f1ceac {
                         @include boxes.clickable($position: absolute);
                         left: 0;
                         width: auto;
                         height: 12px;
                         padding: 0;
 
-                        &.active_ef18ee {
+                        &.active_f1ceac {
                             @include boxes.inset($position: absolute);
                         }
                     }
                 }
 
                 // Other buttons
-                button:not(.wrapper_b6e2f9 button) {
+                button:not(.wrapper__1405b button) {
                     @include boxes.clickable;
                     margin: 0;
                     height: 32px;
                     width: 32px;
 
-                    .controlIcon_ef18ee {
+                    .controlIcon_f1ceac {
                         color: $black;
                     }
 
-                    &.buttonColor_d4af21 {
+                    &.buttonColor__7b3e8 {
                         padding: 0;
                         background: unset;
                         color: $black;
@@ -164,7 +164,7 @@
             width: 32px;
             top: 8px;
 
-            .controlIcon_ef18ee {
+            .controlIcon_f1ceac {
                 color: $black;
             }
         }

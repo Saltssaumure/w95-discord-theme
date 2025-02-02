@@ -1,25 +1,25 @@
 @use "../top/vars" as *;
 @use "../top/boxes" as boxes;
 
-.baseLayer_d4b6c5.stop-animations {
+.baseLayer__960e4.stop-animations {
     opacity: 1 !important;
     transform: scale(1) !important;
 
-    .container_a4d4d9 {
+    .container_c48ade {
         filter: grayscale(0.8) brightness(0.5);
         backdrop-filter: brightness(1);
     }
 }
 
-.layers_d4b6c5 > .layer_d4b6c5 .animating_d4b6c5 {
+.layers__960e4 > .layer__960e4 .animating__960e4 {
     transform: none !important;
 }
 
-.layer_d4b6c5 {
+.layer__960e4 {
     background: transparent;
 }
 
-.pictureInPictureWindow_d0596b {
+.pictureInPictureWindow__6341f {
     overflow: visible;
     border-radius: 0;
 

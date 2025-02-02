@@ -2,13 +2,13 @@
 @use "../../top/boxes" as boxes;
 
 // Highlighted text editor
-.buttons_de3e42 {
+.buttons_bba883 {
     @include boxes.box;
     background: $grey;
 
-    .icon_de3e42,
-    .active__05fbc .icon_de3e42,
-    .hover_d0ebf2:hover .icon_de3e42 {
+    .icon_bba883,
+    .active__05fbc .icon_bba883,
+    .hover_d0ebf2:hover .icon_bba883 {
         color: $black;
     }
 
@@ -16,7 +16,7 @@
         @include boxes.inset;
     }
 
-    .divider_de3e42 {
+    .divider_bba883 {
         display: none;
     }
 }
